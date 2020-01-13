@@ -1,5 +1,5 @@
 # Let users know if they're missing any of our hard dependencies
-hard_dependencies = ("numpy", "pytz", "tqdm", "pandas", "requests", "lxml", "json", "time")
+hard_dependencies = ("numpy", "pytz", "tqdm", "pandas", "requests", "lxml")
 missing_dependencies = []
 
 for dependency in hard_dependencies:
