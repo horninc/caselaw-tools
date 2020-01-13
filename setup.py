@@ -10,34 +10,6 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name='caselaw-tools',
-      version='0.1',
-      description='Python toolkit for working with case law',
-      long_description=long_description,
-      long_description_content_type="text/markdown",
-      url='https://github.com/horninc/caselaw-tools',
-      author='Kristaps Horns',
-      author_email='k.horns@ideaspool.nl',
-      license='GPL',
-      packages=setuptools.find_packages(),
-      install_requires=[
-          "numpy", 
-          "pytz",
-          "tqdm",
-          "pandas", 
-          "requests", 
-          "lxml"
-      ],
-      test_suite='nose.collector',
-      tests_require=['nose'],
-      zip_safe=False,
-      classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
-        "Operating System :: OS Independent",
-      ],
-      python_requires='>=3.6')
-
 # Arguments marked as "Required" below must be included for upload to PyPI.
 # Fields marked as "Optional" may be commented out.
 
