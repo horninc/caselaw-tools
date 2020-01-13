@@ -5,7 +5,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='caselaw-tools',
+setuptools.setup(name='caselaw-tools',
       version='0.1',
       description='Python toolkit for working with case law',
       long_description=long_description,
