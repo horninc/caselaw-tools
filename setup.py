@@ -13,7 +13,7 @@ setuptools.setup(name='caselaw-tools',
       url='https://github.com/horninc/caselaw-tools',
       author='Kristaps Horns',
       author_email='k.horns@ideaspool.nl',
-      license='GPL-3.0',
+      license='GPL',
       packages=setuptools.find_packages(),
       install_requires=[
           "numpy", 
@@ -31,7 +31,7 @@ setuptools.setup(name='caselaw-tools',
       zip_safe=False,
       classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: GPL-3.0 License",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Operating System :: OS Independent",
       ],
       python_requires='>=3.6')
