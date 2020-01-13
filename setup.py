@@ -22,7 +22,6 @@ setuptools.setup(name='caselaw-tools',
           "pandas", 
           "requests", 
           "lxml", 
-          "urllib", 
           "json", 
           "time"
       ],
