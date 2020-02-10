@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""package caselaw-tools
+"""package caselaw_tools
 author    Kristaps Horns
 license   GPL v3.0+
 """
